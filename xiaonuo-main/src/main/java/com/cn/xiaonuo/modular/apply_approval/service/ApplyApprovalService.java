@@ -34,7 +34,7 @@ import java.util.List;
  * 申请登记service接口
  *
  * @author 欧阳
- * @date 2021-01-10 15:06:47
+ * @date 2021-01-15 09:34:30
  */
 public interface ApplyApprovalService extends IService<ApplyApproval> {
 
@@ -42,7 +42,7 @@ public interface ApplyApprovalService extends IService<ApplyApproval> {
      * 查询申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     PageResult<ApplyApproval> page(ApplyApprovalParam applyApprovalParam);
 
@@ -50,7 +50,7 @@ public interface ApplyApprovalService extends IService<ApplyApproval> {
      * 申请登记列表
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     List<ApplyApproval> list(ApplyApprovalParam applyApprovalParam);
 
@@ -58,7 +58,7 @@ public interface ApplyApprovalService extends IService<ApplyApproval> {
      * 添加申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     void add(ApplyApprovalParam applyApprovalParam);
 
@@ -66,7 +66,7 @@ public interface ApplyApprovalService extends IService<ApplyApproval> {
      * 删除申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     void delete(ApplyApprovalParam applyApprovalParam);
 
@@ -74,7 +74,7 @@ public interface ApplyApprovalService extends IService<ApplyApproval> {
      * 编辑申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     void edit(ApplyApprovalParam applyApprovalParam);
 
@@ -82,7 +82,7 @@ public interface ApplyApprovalService extends IService<ApplyApproval> {
      * 查看申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
      ApplyApproval detail(ApplyApprovalParam applyApprovalParam);
 }

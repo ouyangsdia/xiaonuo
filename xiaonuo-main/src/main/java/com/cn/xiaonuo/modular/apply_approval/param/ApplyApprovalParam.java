@@ -27,14 +27,13 @@ package com.cn.xiaonuo.modular.apply_approval.param;
 import com.cn.xiaonuo.core.pojo.base.param.BaseParam;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
-
-import java.util.Date;
+import java.util.*;
 
 /**
 * 申请登记参数类
  *
  * @author 欧阳
- * @date 2021-01-10 15:06:47
+ * @date 2021-01-15 09:34:30
 */
 @Data
 public class ApplyApprovalParam extends BaseParam {
@@ -66,7 +65,7 @@ public class ApplyApprovalParam extends BaseParam {
     /**
      * 拟供货时间
      */
-    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date supplyTime;
 
 

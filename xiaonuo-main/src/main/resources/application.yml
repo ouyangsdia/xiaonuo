@@ -18,7 +18,6 @@ spring:
     serialization:
       # 格式化输出
       indent_output: false
-
 #mybaits相关配置
 mybatis-plus:
   mapper-locations: classpath*:com/cn/**/mapping/*.xml, classpath:/META-INF/modeler-mybatis-mappings/*.xml

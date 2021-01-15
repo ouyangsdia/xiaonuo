@@ -17,7 +17,10 @@ import './components/global.less'
 import { Dialog } from '@/components'
 import { hasBtnPermission } from './utils/permissions' // button permission
 import { sysApplication } from './utils/applocation'
-
+import moment from 'moment'
+import 'moment/locale/zh-cn'
+moment.locale('zh-cn')
+Vue.prototype.$moment = moment
 Vue.use(VueAxios)
 
 Vue.use(Dialog)

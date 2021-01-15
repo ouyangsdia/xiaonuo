@@ -1,6 +1,5 @@
 <template>
   <a-card :bordered="false">
-    <el-button type="primary">主要按钮</el-button>
     <div class="table-page-search-wrapper" v-if="hasPerm('applyApproval:page')">
       <a-form layout="inline">
         <a-row :gutter="48">

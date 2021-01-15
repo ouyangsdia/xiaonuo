@@ -49,7 +49,7 @@ import java.util.List;
  * 申请登记service接口实现类
  *
  * @author 欧阳
- * @date 2021-01-10 15:06:47
+ * @date 2021-01-15 09:34:30
  */
 @Service
 public class ApplyApprovalServiceImpl extends ServiceImpl<ApplyApprovalMapper, ApplyApproval> implements ApplyApprovalService {
@@ -182,7 +182,7 @@ public class ApplyApprovalServiceImpl extends ServiceImpl<ApplyApprovalMapper, A
      * 获取申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     private ApplyApproval queryApplyApproval(ApplyApprovalParam applyApprovalParam) {
         ApplyApproval applyApproval = this.getById(applyApprovalParam.getId());

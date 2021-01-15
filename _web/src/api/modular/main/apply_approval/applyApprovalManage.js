@@ -4,7 +4,7 @@ import { axios } from '@/utils/request'
  * 查询申请登记
  *
  * @author 欧阳
- * @date 2021-01-14 16:09:44
+ * @date 2021-01-15 09:34:30
  */
 export function applyApprovalPage (parameter) {
   return axios({
@@ -18,7 +18,7 @@ export function applyApprovalPage (parameter) {
  * 申请登记列表
  *
  * @author 欧阳
- * @date 2021-01-14 16:09:44
+ * @date 2021-01-15 09:34:30
  */
 export function applyApprovalList (parameter) {
   return axios({
@@ -32,7 +32,7 @@ export function applyApprovalList (parameter) {
  * 添加申请登记
  *
  * @author 欧阳
- * @date 2021-01-14 16:09:44
+ * @date 2021-01-15 09:34:30
  */
 export function applyApprovalAdd (parameter) {
   return axios({
@@ -46,7 +46,7 @@ export function applyApprovalAdd (parameter) {
  * 编辑申请登记
  *
  * @author 欧阳
- * @date 2021-01-14 16:09:44
+ * @date 2021-01-15 09:34:30
  */
 export function applyApprovalEdit (parameter) {
   return axios({
@@ -60,7 +60,7 @@ export function applyApprovalEdit (parameter) {
  * 删除申请登记
  *
  * @author 欧阳
- * @date 2021-01-14 16:09:44
+ * @date 2021-01-15 09:34:30
  */
 export function applyApprovalDelete (parameter) {
   return axios({

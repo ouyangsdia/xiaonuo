@@ -24,21 +24,17 @@ XiaoNuo采用APACHE LICENSE 2.0开源协议，您在使用过程中，需要注�
  */
 package com.cn.xiaonuo.modular.apply_approval.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import com.cn.xiaonuo.core.pojo.base.entity.BaseEntity;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-
-import java.util.Date;
+import java.util.*;
 
 /**
  * 申请登记
  *
  * @author 欧阳
- * @date 2021-01-10 15:06:47
+ * @date 2021-01-15 09:34:30
  */
 @EqualsAndHashCode(callSuper = true)
 @Data
@@ -69,7 +65,6 @@ public class ApplyApproval extends BaseEntity {
     /**
      * 拟供货时间
      */
-    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd HH:mm:ss")
     private Date supplyTime;
 
     /**

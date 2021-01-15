@@ -33,7 +33,7 @@ import com.cn.xiaonuo.sys.core.consts.SysExpEnumConstant;
  * 申请登记
  *
  * @author 欧阳
- * @date 2021-01-10 15:06:47
+ * @date 2021-01-15 09:34:30
  */
 @ExpEnumType(module = SysExpEnumConstant.XIAONUO_SYS_MODULE_EXP_CODE, kind = SysExpEnumConstant.SYS_POS_EXCEPTION_ENUM)
 public enum ApplyApprovalExceptionEnum implements AbstractBaseExceptionEnum {

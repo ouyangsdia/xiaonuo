@@ -42,7 +42,7 @@ import javax.annotation.Resource;
  * 申请登记控制器
  *
  * @author 欧阳
- * @date 2021-01-10 15:06:47
+ * @date 2021-01-15 09:34:30
  */
 @RestController
 public class ApplyApprovalController {
@@ -54,7 +54,7 @@ public class ApplyApprovalController {
      * 查询申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     @Permission
     @GetMapping("/applyApproval/page")
@@ -67,15 +67,13 @@ public class ApplyApprovalController {
      * 添加申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     @Permission
     @PostMapping("/applyApproval/add")
     @BusinessLog(title = "申请登记_增加", opType = LogAnnotionOpTypeEnum.ADD)
     public ResponseData add(@RequestBody @Validated(ApplyApprovalParam.add.class) ApplyApprovalParam applyApprovalParam) {
-        System.out.println(applyApprovalParam.getArea());
         applyApprovalService.add(applyApprovalParam);
-
         return new SuccessResponseData();
     }
 
@@ -83,7 +81,7 @@ public class ApplyApprovalController {
      * 删除申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     @Permission
     @PostMapping("/applyApproval/delete")
@@ -97,7 +95,7 @@ public class ApplyApprovalController {
      * 编辑申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     @Permission
     @PostMapping("/applyApproval/edit")
@@ -111,7 +109,7 @@ public class ApplyApprovalController {
      * 查看申请登记
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     @Permission
     @GetMapping("/applyApproval/detail")
@@ -124,7 +122,7 @@ public class ApplyApprovalController {
      * 申请登记列表
      *
      * @author 欧阳
-     * @date 2021-01-10 15:06:47
+     * @date 2021-01-15 09:34:30
      */
     @Permission
     @GetMapping("/applyApproval/list")
